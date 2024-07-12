@@ -86,3 +86,45 @@ body.dark-mode .active, body.dark-mode .collapsible:hover {
 body.dark-mode .content {
     background-color: #444;
 }
+
+.scholarships-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.college {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    width: calc(50% - 20px);
+}
+
+.college img {
+    width: 100%;
+    height: auto;
+}
+
+.college h4 {
+    margin: 0;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+}
+
+.college p {
+    padding: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    transition: background-color 0.5s;
+}
