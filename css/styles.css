@@ -75,3 +75,14 @@ footer {
     overflow: hidden;
     background-color: #f4f4f4;
 }
+body.dark-mode .collapsible {
+    background-color: #555;
+}
+
+body.dark-mode .active, body.dark-mode .collapsible:hover {
+    background-color: #777;
+}
+
+body.dark-mode .content {
+    background-color: #444;
+}
