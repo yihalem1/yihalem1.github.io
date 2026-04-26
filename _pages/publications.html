@@ -5,25 +5,50 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
+<p>
+  Authors are listed in the original publication order; my name is
+  <u>underlined</u>. <em>*</em> indicates equal contribution. You can also browse my work on my
+  <a href="{{ site.author.googlescholar }}">Google Scholar profile</a>.
+</p>
+
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
+  {% for category in site.publication_category %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
+        <h2 id="{{ category[0] }}">{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
-      {% include archive-single.html %}
+
+      <div class="list__item">
+        <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+          <h3 class="archive__item-title" itemprop="headline" style="margin-bottom:0.25em;">
+            <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+          </h3>
+
+          {% if post.authors %}
+            <p style="margin:0.15em 0 0.25em 0;">{{ post.authors }}</p>
+          {% endif %}
+
+          <p style="margin:0.15em 0 0.5em 0;">
+            <em>{{ post.venue }}</em>{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}
+          </p>
+
+          {% if post.excerpt %}
+            <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+          {% endif %}
+
+          {% if post.paperurl %}
+            <p><a href="{{ post.paperurl }}">[Paper / Project Page]</a></p>
+          {% endif %}
+        </article>
+      </div>
+
     {% endfor %}
   {% endfor %}
 {% else %}
@@ -31,6 +56,3 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
-
-
