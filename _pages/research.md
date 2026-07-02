@@ -25,7 +25,7 @@ Selected research projects
 Visibility-Aware 3D Gaussian Human Avatar Reconstruction
 ------
 *Vision & Learning Lab, UNIST · Jan 2025 – Present*
-*First-author work submitted to ECCV 2026 (under review).*
+*First-author work accepted to ECCV 2026 · [Project page](https://yihalem1.github.io/FlexiAvatar/).*
 
 * Designed a unified 3D Gaussian splatting pipeline for animatable avatar reconstruction from monocular video across **full-body, upper-body, and head-only** inputs.
 * Developed **visibility-aware optimization** using Otsu's method to prune unobserved Gaussians, **reducing memory by up to 50%** and improving rendering speed by **~34%**.
@@ -70,7 +70,7 @@ Bio-Optics & Computational Imaging Lab, UNIST — *Research Assistant (Sep 2021 
 
 Selected research highlights
 ======
-* **First author**, *ECCV 2026* (under review): Visibility-aware 3D Gaussian avatar framework — state-of-the-art across full-body, upper-body, and head-only settings (~3% PSNR gain, up to 50% memory reduction).
+* **First author**, *ECCV 2026*: [FlexiAvatar](https://yihalem1.github.io/FlexiAvatar/) — visibility-aware 3D Gaussian avatar framework, state-of-the-art across full-body, upper-body, and head-only settings (~3% PSNR gain, up to 50% memory reduction).
 * **Co-author**, *CVPR 2026*: HandVQA — 1.6M-scale benchmark for diagnosing spatial reasoning failures in vision–language models.
 * **Co-author**, *CVPR 2026 Findings*: THOM — text-conditioned generative framework for physically plausible hand–object meshes.
 * **Co-author**, *AAAI 2025*: QORT-Former — real-time 3D two-hand manipulation modeling (53.5 FPS; +27.2% H2O; +10.4% FPHA).

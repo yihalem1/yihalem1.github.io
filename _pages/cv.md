@@ -21,7 +21,7 @@ redirect_from:
 
 Research summary
 ======
-Master's researcher at UNIST working on **3D human avatar reconstruction**, **3D Gaussian splatting**, and **vision–language reasoning** for hand understanding. Recent first-author work (ECCV 2026, under review) proposes a *visibility-aware* 3D Gaussian avatar framework that reconstructs animatable avatars from monocular video across full-body, upper-body, and head-only settings within a single pipeline — integrating occlusion-robust SMPL-X tracking, part-specific residual refinement, and diffusion-based texture completion. Additional contributions span hand pose benchmarking (CVPR 2026), hand–object mesh generation (CVPR Findings 2026), real-time two-hand manipulation (AAAI 2025), and generative replay for continual detection (CVPR 2024 Highlight).
+Master's researcher at UNIST working on **3D human avatar reconstruction**, **3D Gaussian splatting**, and **vision–language reasoning** for hand understanding. Recent first-author work ([FlexiAvatar](https://yihalem1.github.io/FlexiAvatar/), ECCV 2026) proposes a *visibility-aware* 3D Gaussian avatar framework that reconstructs animatable avatars from monocular video across full-body, upper-body, and head-only settings within a single pipeline — integrating occlusion-robust SMPL-X tracking, part-specific residual refinement, and diffusion-based texture completion. Additional contributions span hand pose benchmarking (CVPR 2026), hand–object mesh generation (CVPR Findings 2026), real-time two-hand manipulation (AAAI 2025), and generative replay for continual detection (CVPR 2024 Highlight).
 
 Research interests
 ======
@@ -34,7 +34,7 @@ Education
 
 Selected research highlights
 ======
-* **First author, ECCV 2026** (under review): Visibility-aware 3D Gaussian avatar framework — state-of-the-art across full-body, upper-body, and head-only settings, with **~3% PSNR gain** and up to **50% memory reduction**.
+* **First author, ECCV 2026**: [FlexiAvatar](https://yihalem1.github.io/FlexiAvatar/) — visibility-aware 3D Gaussian avatar framework, state-of-the-art across full-body, upper-body, and head-only settings, with **~3% PSNR gain** and up to **50% memory reduction**.
 * **Co-author, CVPR 2026**: HandVQA — 1.6M-scale benchmark for diagnosing spatial reasoning failures in vision–language models via hand pose question answering.
 * **Co-author, CVPR 2026 Findings**: THOM — text-conditioned generative framework for physically plausible hand–object mesh interactions.
 * **Co-author, AAAI 2025**: QORT-Former — real-time 3D two-hand manipulation modeling (53.5 FPS; +27.2% H2O; +10.4% FPHA).
@@ -54,7 +54,7 @@ Research experience
 **Vision & Learning Lab, UNIST** — *Graduate Research Assistant (previously Research Assistant)*
 *Jan 2023 – Present · Ulsan, South Korea · Advisors: [Prof. Seungryul Baek](https://sites.google.com/site/bsrvision00), [Prof. Binod Bhattarai](https://sites.google.com/view/bbinod/home).*
 
-* Led development of a first-author visibility-aware 3D Gaussian avatar reconstruction framework (ECCV 2026, under review).
+* Led development of a first-author visibility-aware 3D Gaussian avatar reconstruction framework (FlexiAvatar, ECCV 2026).
 * Contributed to HandVQA (CVPR 2026) and THOM (CVPR Findings 2026) on 3D hand understanding and hand–object interaction generation.
 * Co-authored SDDGR (CVPR 2024 Highlight), a Stable-Diffusion-based generative replay method for class-incremental object detection, and QORT-Former (AAAI 2025), a real-time transformer for 3D two-hand manipulation.
 * Implemented transformer-based approaches for high-fidelity 3D facial texture refinement and designed Trimesh-based pipelines for hand–object interaction visualization.

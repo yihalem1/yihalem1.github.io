@@ -5,13 +5,16 @@ category: conferences
 permalink: /publication/2026-eccv-unified-gaussian-avatars
 excerpt: 'Visibility-aware 3D Gaussian avatar framework that reconstructs animatable avatars from monocular video across full-body, upper-body, and head-only inputs within a single pipeline.'
 date: 2026-04-01
-venue: 'European Conference on Computer Vision (ECCV) — under review'
-authors: '<u>Y. Y. Tiruneh</u>, S. Baek'
+venue: 'European Conference on Computer Vision (ECCV) 2026'
+paperurl: 'https://yihalem1.github.io/FlexiAvatar/'
+authors: '<u>Y. Y. Tiruneh</u>, M. S. Ali, U. Jeong, M. A. Khan, MD K. C. Sayem, A. Bayramgeldiyev, B. Bhattarai, S. Baek'
 ---
 
-**Authors.** <u>Y. Y. Tiruneh</u>, S. Baek.
+**Authors.** <u>Y. Y. Tiruneh</u>, M. S. Ali, U. Jeong, M. A. Khan, MD K. C. Sayem, A. Bayramgeldiyev, B. Bhattarai, S. Baek.
 
-**Status.** Submitted to **ECCV 2026** (under review).
+**Venue.** Accepted to **ECCV 2026**.
+
+**Project page.** [yihalem1.github.io/FlexiAvatar](https://yihalem1.github.io/FlexiAvatar/)
 
 **Summary.**
 - Proposed a *visibility-aware* optimization framework that restricts Gaussian splatting supervision to observed body regions, eliminating hallucinated geometry and texture drift under partial-view inputs.
